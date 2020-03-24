@@ -4,6 +4,7 @@ Indicazioni generali Layout
 
 Obiettivo del presente documento è fornire le informazioni necessarie all’utilizzo dell'interfaccia per la procedura SIGLA. 
 Saranno date indicazioni sulle modalità grafiche e di utilizzo rispetto a:
+
 - Accesso all’applicazione e modifica dati di accesso all’interno dell’applicazione;
 - Presentazione e Funzionalità per quanto riguarda il menù;
 - Presentazione dell'interfaccia SIGLA e utilizzo dei vari componenti;
