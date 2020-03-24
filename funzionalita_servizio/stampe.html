@@ -66,6 +66,8 @@
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
     <link rel="index" title="Indice" href="../genindex.html" />
     <link rel="search" title="Cerca" href="../search.html" />
+    <link rel="next" title="Coda di Stampa" href="coda_di_stampa.html" />
+    <link rel="prev" title="Funzionalità di Servizio" href="index.html" />
     <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
   </head>
@@ -217,6 +219,7 @@
     <div class="md-tabs__inner md-grid">
       <ul class="md-tabs__list">
           <li class="md-tabs__item"><a href="../index.html" class="md-tabs__link">Home</a></li>
+          <li class="md-tabs__item"><a href="index.html" class="md-tabs__link">Funzionalità di Servizio</a></li>
       </ul>
     </div>
   </nav>
@@ -283,7 +286,61 @@
     <li class="md-nav__item">
     
       <a href="index.html" class="md-nav__link">Funzionalità di Servizio</a>
+      <ul class="md-nav__list"> 
+    <li class="md-nav__item">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    <label class="md-nav__link md-nav__link--active" for="__toc"> Gestione Stampe </label>
+    
+      <a href="#" class="md-nav__link md-nav__link--active">Gestione Stampe</a>
       
+        <!--
+  ~ Copyright (C) 2020  Consiglio Nazionale delle Ricerche
+  ~
+  ~     This program is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU Affero General Public License as
+  ~     published by the Free Software Foundation, either version 3 of the
+  ~     License, or (at your option) any later version.
+  ~
+  ~     This program is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU Affero General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU Affero General Public License
+  ~     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+
+<nav class="md-nav md-nav--secondary">
+    <ul class="md-nav__list" data-md-scrollfix="">
+    </ul>
+</nav>
+    </li>
+    <li class="md-nav__item">
+    
+      <a href="coda_di_stampa.html" class="md-nav__link">Coda di Stampa</a>
+      
+    </li>
+    <li class="md-nav__item">
+    
+      <a href="coda_file_excel.html" class="md-nav__link">Coda File Excel</a>
+      
+    </li>
+    <li class="md-nav__item">
+    
+      <a href="gestione_preferiti.html" class="md-nav__link">Gestione Preferiti</a>
+      
+    </li>
+    <li class="md-nav__item">
+    
+      <a href="messaggi.html" class="md-nav__link">Messaggi Applicativi</a>
+      
+    </li>
+    <li class="md-nav__item">
+    
+      <a href="utenze/index.html" class="md-nav__link">Gestione e Abilitazioni delle Utenze</a>
+      
+    </li></ul>
     </li>
     <li class="md-nav__item">
     
@@ -341,7 +398,7 @@
   
 <h1 id="funzionalita-servizio-stampe--page-root">Gestione Stampe<a class="headerlink" href="#funzionalita-servizio-stampe--page-root" title="Link a questa intestazione">¶</a></h1>
 <p>Le mappe di lancio stampa si presentano con le seguenti icone:</p>
-<a class="" data-lightbox="group-d2f9a905-31da-46f3-b1ec-be032c115bb6" data-title="" href="../_images/print_41.png" title=""><img alt="" class="" height="auto" src="../_images/print_41.png" width="100%"/>
+<a class="" data-lightbox="group-b1bf2191-f959-4b2c-ab57-a04c3bca45e3" data-title="" href="../_images/print_41.png" title=""><img alt="" class="" height="auto" src="../_images/print_41.png" width="100%"/>
 </a><p>Successivamente al lancio della stampa è possibile inserire una descrizione e cambiare la visibilità della stampa eseguita:</p>
 <ul class="simple">
 <li><p>Utente (<strong>default</strong>)</p></li>
@@ -351,10 +408,10 @@
 <li><p>Ente</p></li>
 <li><p>Pubblico</p></li>
 </ul>
-<a class="" data-lightbox="group-a87de0ac-98a5-443f-ad46-673802dae900" data-title="" href="../_images/print_61.png" title=""><img alt="" class="" height="auto" src="../_images/print_61.png" width="100%"/>
+<a class="" data-lightbox="group-c7bab81e-d112-4631-98e8-bbeaddaa961c" data-title="" href="../_images/print_61.png" title=""><img alt="" class="" height="auto" src="../_images/print_61.png" width="100%"/>
 </a><p>Inoltre attivando la spunta su <strong>Invia E-Mail con la stampa allegata</strong> è possibile ricevere via E-mail il contenuto della stampa,
 inoltre è possibile schedulare la produzione della stampa stessa secondo i parametri presenti nella maschera.</p>
-<a class="" data-lightbox="group-76b41f1b-9a43-48b5-9607-94145fe73e18" data-title="" href="../_images/print_71.png" title=""><img alt="" class="" height="auto" src="../_images/print_71.png" width="100%"/>
+<a class="" data-lightbox="group-2b44a831-83cb-4a2e-9724-b1b8a866b870" data-title="" href="../_images/print_71.png" title=""><img alt="" class="" height="auto" src="../_images/print_71.png" width="100%"/>
 </a><p>Indicando nell'ultimo box una data/ora, una unità di intervallo (giorni/settimane/mesi) ed un <strong>valore per l’unità di intervallo</strong> (1 giorno, 5 giorni, 2 settimane, ecc.) si indica a SIGLA:
 - di eseguire quella particolare stampa a partire da quella data/ora con la cadenza indicata;
 - di inviarla automaticamente agli indirizzi e-mail indicati.</p>
@@ -374,6 +431,30 @@ Inoltre, a seconda della <strong>visibilità</strong> conferita alla coda di sta
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
     
+        <a href="index.html"
+           class="md-flex md-footer-nav__link md-footer-nav__link--prev"
+           rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+                <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+                        <span class="md-flex__ellipsis">
+                          <span class="md-footer-nav__direction"> Precedente </span> Funzionalità di Servizio </span>
+            </div>
+        </a>
+    
+    
+        <a href="coda_di_stampa.html"
+           class="md-flex md-footer-nav__link md-footer-nav__link--next"
+           rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title"><span
+                    class="md-flex__ellipsis"> <span
+                    class="md-footer-nav__direction"> Successivo </span> Coda di Stampa </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink"><i
+                    class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+        </a>
     
       </nav>
     </div>
